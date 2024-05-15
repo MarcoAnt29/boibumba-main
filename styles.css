@@ -61,14 +61,11 @@ border-width: 50px;
 }
 body{
  
-background-image: url(desistindo.png);
+background-image: url(desistindo\ \(1\).png);
 background-color: rgb(177, 22, 22);
 background-repeat: no-repeat;
 background-attachment: fixed;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
-
 }
 
 #page2{
@@ -373,3 +370,151 @@ footer {
 .marco{
   margin-left: 1500px;
 }
+
+@media only screen and (max-width: 414px) {
+  img{
+    image-resolution: 100px;
+    width:900px;
+   height: 250px;
+    display: flex;
+    margin-left: auto;
+margin-right: auto;    
+justify-content: center;
+    
+  }
+  
+  .container{
+  display:flex;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 80px;
+  text-align: justify;
+  color: rgb(247, 245, 245);
+  text-decoration: double;
+  text-decoration: wavy;
+  border-width: 50px;
+  
+    img{
+      width: 350px;
+     margin: auto;
+    }     
+    p{
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 10px;
+    }
+   }
+  
+  
+  
+   .imagemboi{
+   display: flex;
+   margin: auto;
+   padding: auto;
+   height: 250px;
+   width: auto;
+margin-right: auto;
+margin-left: 40px;
+   
+  }
+
+  .cabeçalho{
+    margin-left: 50px;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    }
+  .imagemboi .imgbatucada{
+    display:none;
+  }
+  body{
+   
+  background-image: url(mobile.png);
+  background-color: rgb(2, 0, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+  }
+  
+  
+
+  
+  #page2{
+    
+    justify-content: end;
+  }
+  
+    
+  ul{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  li{
+    padding: 35px;
+    margin: auto;
+    font-weight: bold;
+  
+
+  }
+
+
+
+  .titulo1{
+    width: auto;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 900px;
+    
+  }
+
+  .container img{
+    margin-bottom: 100px;
+  }
+  .titulo2{
+    width: auto;
+  }
+  .titulo3{
+    width: auto;
+  }
+  .tema2024{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+
+  }
+  .carousel{
+    width: 370px;
+    height: 900px;
+    margin: auto;
+
+
+  }
+ .textoitens{
+  margin-top: 100px;
+ }
+
+ *{
+overflow-x: hidden;
+ }
+ .fotodotema{
+  margin-top: auto;
+  display: flex;
+  width: 800px;
+  height: 600px;
+
+ }
+
+ }
+
+
+

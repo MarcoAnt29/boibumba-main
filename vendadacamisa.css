@@ -13,14 +13,14 @@
 }
 
 body{
-    background-repeat: no-repeat;
-background-attachment: fixed;
+    
 justify-content: center;
 display: flex;
 background-color: rgb(3, 3, 3);
-
+overflow-x: hidden;
   
 }
+
 
 
 
@@ -93,4 +93,138 @@ background: linear-gradient(90deg, rgba(1, 11, 7, 0.667) 51%, rgba(27,147,5,0.83
     text-align: center;
     height: 40px;
     
+}
+
+@media only screen and (max-width: 414px) {
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+      body {
+        font-family: Arial, sans-serif;
+      }
+    
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    
+      .carousel {
+        
+        overflow: hidden;
+        box-shadow: 10px 10px 10px 10px rgba(37, 224, 0, 0.3);
+        border: solid green;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        justify-content: center;
+      }
+    
+      .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease;
+        border: solid green;
+         
+        width: 400px;
+        
+      }
+    
+      .carousel-item {
+        min-width: 100%;
+      }
+    
+      img {
+        width: 400px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .controls {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .control {
+        cursor: pointer;
+        background-color: rgba(255, 253, 253, 0.5);
+        color: #0c0b0b;
+        padding: 10px;
+        border: none;
+        margin-top: -50px;
+      }
+
+
+
+.descrição{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    width: auto;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+
+}
+
+.descricao2{
+
+   font-size: 17px;
+    
+   
+}
+
+.titulo1{
+    width: 280px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+    
+
+    
+
+     .comprar{
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+
+     .camiseta1{
+     height: auto;
+    width: auto;
+    font-size: 10px;
+     }
+
+     .camicaum{
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .camisadois{
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto
+        
+     }
+     footer{
+        margin-top: auto;
+     }
 }
